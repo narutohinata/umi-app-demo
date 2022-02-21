@@ -1,0 +1,15 @@
+.title {
+  background: rgb(121, 242, 157);
+}
+
+@layer components {
+  .nav-links {
+    @apply items-end;
+    a {
+       @apply hover:text-pink-400;
+       @apply inline-block;
+       @apply h-10;
+       @apply leading-10;
+    }
+  }
+}
